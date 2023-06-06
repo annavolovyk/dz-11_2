@@ -6,18 +6,13 @@ public abstract class Person {
     private Person partner;
     private int age;
 
-    public Person(String firstName, String lastName, int age, Person partner) {
+    public Person() {
         this.firstName = firstName;
         this.lastName = lastName;
         this.partner = partner;
         this.age = age;
 
     }
-
-    public Person() {
-
-    }
-
     public String getFirstName() {
         return firstName;
     }
