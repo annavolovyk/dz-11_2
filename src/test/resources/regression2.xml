@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Person Tests">
+<suite name="Just Person Tests">
 
-    <test name="Person Test">
+    <test name="Person Tests">
         <packages>
-            <package name="personTests"/>
+            <package name="persontests"/>
         </packages>
         <classes>
-            <class name="personTests.PersonTest2"/>
+            <class name="persontests.PersonTests"/>
         </classes>
     </test>
 </suite>

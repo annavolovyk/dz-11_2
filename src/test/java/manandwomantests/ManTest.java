@@ -9,7 +9,7 @@ public class ManTest {
 
     @BeforeMethod
     public void creatingMan(){
-        man = new Man("Alex", "Smith", 64, null);
+        man = new Man("Alex", "Smith", 65, null);
     }
     @Test
     public void testIsRetired() {

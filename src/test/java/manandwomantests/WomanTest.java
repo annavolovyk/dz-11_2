@@ -23,13 +23,13 @@ public class WomanTest {
 
     @Test
     public void testRegisterPartnership_NoPartner() {
-        woman.setPartner(woman.getPartner());
-        Assert.assertEquals("Mark", woman.getPartner());
+        woman.setPartner(null);
+        Assert.assertEquals(null, woman.getPartner());
     }
 
     @Test
     public void testDeregisterPartnership() {
-        woman.setOldLastName("Black");
-        Assert.assertEquals(woman.getLastName(), "Black");
+        woman.setPartner(null);
+        Assert.assertNull(woman.getPartner(),"There is no partner");
     }
 }

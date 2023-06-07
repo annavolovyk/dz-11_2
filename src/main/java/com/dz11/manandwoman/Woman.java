@@ -5,7 +5,7 @@ public class Woman extends Person {
     private String oldLastName;
 
     public Woman(String firstname, String lastname, int age, Person partner) {
-        super();
+        super(firstname, lastname, partner, age);
     }
     public void setOldLastName(String oldLastName) {
         this.oldLastName = oldLastName;
