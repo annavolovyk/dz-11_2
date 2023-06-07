@@ -9,7 +9,7 @@ public class PersonTest {
 
     @BeforeMethod
     public void creatingPerson() {
-        person = new Person("Alex", "Smith", null, 65) {
+        person = new Person() {
             @Override
             public boolean isRetired() {
                 return false;
